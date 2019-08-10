@@ -1,0 +1,16 @@
+
+
+.main-color{
+    color: #ff3115;
+}
+.apply-now a{
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.apply-now a:hover{
+    color: #df2810
+
+}
+.thg{
+    display: table-header-group;
+}
