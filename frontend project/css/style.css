@@ -1,0 +1,130 @@
+.main-menu a {
+  text-decoration: none;
+}
+
+.bg-black {
+  background: black;
+}
+.shline{
+  padding: 25px 0 20px;
+  
+}
+.shline i {
+  line-height: 40px;
+  font-size: 35px;
+  margin-right: 12px;
+}
+.shline a {
+  text-decoration: none;
+  color: #555555
+  
+}
+
+/* .shline:hover a{
+  color: #ff3115;
+  transition-duration: 0.3s;
+} */
+.mc-hover:hover {
+  color: #ff3115;
+  transition-duration: 0.3s;
+}
+.mcb-hover:hover{
+  background-color: #ff3115;
+  transition-duration: 0.3s;
+}
+
+.mcc-hover:hover {
+  background-color: #e41f05;
+  transition-duration: 0.3s;
+}
+
+.fhline p {
+  -webkit-margin-after: auto;
+          margin-block-end: auto;
+          margin-left: 8px;
+}
+
+.bg-black2 {
+  background: #212121;
+}
+
+.main-color {
+  color: #ff3115;
+}
+
+.bg-mc {
+  background: #ff3115;
+}
+
+.apply-now a {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  text-decoration: none;
+}
+
+.bg-mc2 {
+  background: #e41f05;
+}
+
+.apply-now a:hover {
+  color: #e41f05;
+}
+
+.thg {
+  display: table-header-group;
+}
+
+.dropbtn {
+  color: #bbbbbb;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown a{
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #bbbbbb;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #bbbbbb;
+  padding: 12px 16px;
+  display: block;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #212121;
+  color: #ff3115;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: black;
+}
+
+.search-menu-icon .icons{
+  display: inline-flex;
+}
+.search-menu-icon .icons i{
+  height: 55px;
+  width: 45px;
+  line-height: 55px;
+  text-align: center;
+
+}
