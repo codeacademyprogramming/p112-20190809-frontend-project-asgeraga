@@ -26,16 +26,17 @@
 } */
 .mc-hover:hover {
   color: #ff3115;
-  transition-duration: 0.3s;
+  transition: all 0.3s ease 0s;
+
 }
 .mcb-hover:hover{
   background-color: #ff3115;
-  transition-duration: 0.3s;
+  transition: all 0.3s ease 0s;
 }
 
 .mcc-hover:hover {
   background-color: #e41f05;
-  transition-duration: 0.3s;
+  transition: all 0.3s ease 0s;
 }
 
 .fhline p {
