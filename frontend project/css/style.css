@@ -129,6 +129,8 @@
   text-align: center;
 
 }
+/* slide sohbeti*/
+
 .home-slider .owl-dots{
     position: absolute;
     right: 50px;
@@ -146,6 +148,140 @@
   background-color: #ff3115;
 }
 
-.home-slider .owl-dot span{
 
+/* section services */
+.section-services {
+  position: relative;
+  top: -80px;
+  z-index: 11;
 }
+
+.section-services .col-lg-3 {
+  height: 210px;
+}
+
+.section-services .col-lg-3 .services-circle {
+  height: 130px;
+  width: 130px;
+  background-color: #212121;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding-top: 25px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  text-align: center;
+  z-index: -1;
+}
+
+.section-services .col-lg-3 .services-circle i {
+  color: #ff3115;
+  font-size: 35px;
+  z-index: 1;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  position: relative;
+}
+
+.section-services .col-lg-3 .services-main {
+  position: relative;
+  top: -80px;
+  background-color: #212121;
+  -webkit-box-shadow: 0 4px 2px -2px #000000;
+          box-shadow: 0 4px 2px -2px #000000;
+  padding: 40px 15px 5px;
+  text-align: center;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  z-index: 0;
+}
+
+.section-services .col-lg-3 .services-main h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  z-index: 1;
+}
+
+.section-services .col-lg-3 .services-main p {
+  color: #cccccc;
+  margin: 0 0 26px;
+  z-index: 1;
+}
+
+.section-services .col-lg-3:hover .services-main,
+.section-services .col-lg-3:hover .services-circle {
+  background-color: #ff3115;
+}
+
+.section-services .col-lg-3:hover .services-main i,
+.section-services .col-lg-3:hover .services-circle i {
+  color: white;
+  -webkit-animation-name: iconScale;
+          animation-name: iconScale;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes iconScale {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes iconScale {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes iconOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes iconOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes sticky {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 55px;
+    opacity: 1;
+  }
+}
+
+@keyframes sticky {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 55px;
+    opacity: 1;
+  }
+}
+/*about us*/
+
