@@ -18,3 +18,5 @@ $('.slide').owlCarousel({
     }
 
 })
+
+
